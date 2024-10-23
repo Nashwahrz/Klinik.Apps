@@ -8,6 +8,7 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import com.nashwa.klinikapps.Screen_page.HomeDoctorActivity
 import kotlinx.coroutines.delay
 
 class MainActivity : AppCompatActivity() {
@@ -20,7 +21,7 @@ class MainActivity : AppCompatActivity() {
         //untuk delay beberapa detik
         Handler(Looper.getMainLooper()).postDelayed({
             //pindah ke page berikutnya
-            val intent = Intent(this, StarterPageActivity::class.java)
+            val intent = Intent(this, PageLogin::class.java)
             startActivity(intent)
             finish()  //kill the activity
         }, 3000)

@@ -6,6 +6,9 @@ data class ModelListDoctor(
     var ImageDr : Int,
     var BidangDr : String,
     var totalReview : String,
-    var angkaReview : String
+    var angkaReview : String,
+    var date : String,
+    var time : String
+
 
 )

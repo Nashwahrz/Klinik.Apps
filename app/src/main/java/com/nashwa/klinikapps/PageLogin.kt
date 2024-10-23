@@ -19,7 +19,7 @@ class PageLogin : AppCompatActivity() {
         enableEdgeToEdge()
         setContentView(R.layout.activity_page_login)
         signup = findViewById(R.id.account)
-        buttonDr = findViewById(R.id.btnSignin)
+       buttonDr = findViewById(R.id.btnSignin)
 
         signup.setOnClickListener(){
             val intent = Intent(this, PageRegister::class.java)
